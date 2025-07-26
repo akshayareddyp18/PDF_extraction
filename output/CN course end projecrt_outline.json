@@ -1,0 +1,1280 @@
+{
+  "title": "IP ADDRESS SCANNER",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "A Course End Project Submitted in Partial Fulfillment of the Requirements",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "for the Course of",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "A8519 – COMPUTER NETWORKS",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Department of Artificial Intelligence and Machine Learning",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Submitted By",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Name of the Student",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Roll Number",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "P. AKSHAYA REDDY",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "22881A7342",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "P. VAISHNAVI",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "22881A7345",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "S. SRILEKHA",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "22881A7353",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "(AUTONOMOUS)",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "December 2024",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Page 2",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(AUTONOMOUS)",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "DEPARTMENT OF Artificial Intelligence and Machine Learning",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Certified that this is a bonafide record of the course end project work entitled,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "ADDRESS",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "SCANNER",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "done",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "by,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "P..Akshaya",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Reddy(22881A7342),P.Vaishnavi(22881A7345),S.Srilekha(22881A7341)",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "submitted to the faculty of",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Artificial Intelligence and Machine Learning",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": ", in partial",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "fulfillment of the requirements for the course of",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Computer Networks",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "during the year",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Dr. Jagini Naga Padmaja",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Dr. Gagan Deep Arora",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Assistant Professor",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Page 3",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "LIST OF CONTENTS",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "OBJECTIVE",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "DESCRIPTION",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "MODULES",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "IMPLEMENTATION",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "5                      OUPUT REPORT",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "6                      CONCLUSION",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Page 4",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "OBJECTIVE",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "IP Address Scanner",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "project aims to develop a versatile tool for scanning a range of IP",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "addresses within a network to identify active devices. This tool simplifies the task of network",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "network administrators, IT professionals, and security analysts. The project emphasizes efficiency,",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "scalability, and user-friendliness, ensuring it meets the demands of both small and large network",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "The scanner will work by sending network requests, such as ICMP (ping) or ARP packets, to",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "each IP address in the specified range. Based on the responses, the tool will determine whether a",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "the list of online devices, their IP addresses, response times, and additional metadata such as",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "One of the key benefits of the IP Address Scanner is its ability to streamline network",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "resolve connectivity issues. Furthermore, the tool helps in maintaining network security by",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "The scanner will cater to varying user needs by offering features such as customizable",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Scalability is a critical aspect of this project. The tool will be designed to handle both small-",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "scale home networks and large corporate environments with hundreds or thousands of devices. It will",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "also include the capability to export scan results in various formats, enabling users to analyze and",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "To ensure broad accessibility, the IP Address Scanner will be developed with a simple, intuitive",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "With its focus on usability, accuracy, and security, the IP Address Scanner will become an essential",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "By focusing on speed, accuracy, and ease of use, the IP Address Scanner will serve as an",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "security, and facilitate troubleshooting makes it a valuable resource for anyone responsible for",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Page 5",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "DESCRIPTION",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "IP Address Scanner",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "is a powerful and versatile tool designed to scan a range of IP",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "This tool operates by sending network requests, such as ICMP (ping) or ARP packets, to each",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "IP address in the specified range. Based on the responses received, the scanner determines whether",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "like hostnames or device types. These insights help users gain a clear understanding of the network",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "IP Address Scanner",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "is particularly useful for network administrators, IT professionals, and",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "resolution of connectivity issues. Additionally, it plays a critical role in security management by",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "The tool is built to handle a wide range of network environments, from small home networks",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "as customizable scanning parameters, allowing users to specify timeout durations, concurrency levels",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "To enhance usability, the scanner features a simple and intuitive interface, ensuring that users",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "The tool is designed with a focus on scalability and efficiency, making it suitable for real-time",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "applications. Users can employ it for periodic scans to maintain an updated inventory of networked",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Designed with a focus on accuracy, speed, and scalability, the",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "IP Address Scanner",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "is an",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "solution, it empowers users to monitor their networks proactively, address issues efficiently, and",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Page 6",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "3. MODULES",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "IP Address Scanner",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "project consists of several well-defined modules to ensure efficient",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "functionality and user-friendly operation. The",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Input Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "is responsible for collecting the range of",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "IP addresses and optional scanning parameters from the user, such as timeout duration, concurrency",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "levels, or protocol type. This module validates the input to ensure the provided IP addresses and",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Network Scanning Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "handles the core functionality of sending network requests,",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "leveraging concurrency to perform faster scans and managing network timeouts or unreachable",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "addresses. The",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Response Analysis Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "processes the responses received, identifying active",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Result Display Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "presents the scan findings in a clear, organized format, showing",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "active devices with details such as IP addresses, response times, and other metadata. This module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "allows users to filter and sort results for better analysis. Additionally, the",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Export Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "enables users",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Configuration Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "offers customization by allowing users to save preferred settings,",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "such as scanning parameters and export options, making recurring scans more efficient. Error",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "management is handled by the",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Error Handling Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": ", which ensures smooth operation by logging",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "To enhance usability, the",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "User Interface Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "provides an intuitive interface. For a",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "(GUI), it provides interactive forms, a progress bar, and buttons for exporting results. A",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "complementary",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Logging Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "records all scanning activities, including errors, start and end times,",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Finally, an optional",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Integration Module",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "allows the scanner to integrate seamlessly with other",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "network management systems, supporting APIs for automation, scheduling, and integration with",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Page 7",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "4. IMPLEMENTATION",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "The implementation of the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "IP Address Scanner",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "involves a systematic approach to ensure the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "tool is efficient, accurate, and user-friendly. The process begins with the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Input Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": ", where users",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "specify the range of IP addresses to be scanned, along with optional settings such as timeout",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "this module to ensure only properly formatted IP ranges are processed, reducing the chances of",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "runtime errors during scanning. This module also supports both command-line and graphical user",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "The core of the implementation lies in the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Network Scanning Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": ", which sends network",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "for checking device availability and ARP for mapping IP addresses to hardware addresses. To improve",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "incorporates error handling for scenarios such as unreachable hosts or timeouts, ensuring robust",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Once the scanning process is complete, the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Response Analysis Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "processes the data",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "received. Active devices are identified based on the responses, and additional information such as",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "response times, hostnames, and device types is extracted when available. This module is designed for",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "accuracy, ensuring that false positives or negatives are minimized. The analyzed results are then",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "passed to the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Result Display Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "To extend functionality, the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Export Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "is implemented to allow users to save scan results",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "in various formats, including CSV, JSON, and PDF. This module ensures compatibility with third-party",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "tools, making the scanner a versatile addition to larger network management systems. Another key",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "aspect of the implementation is the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Configuration Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": ", which lets users save scanning preferences",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "for recurring use. By storing settings like preferred IP ranges and timeouts, this module enhances",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "The tool also includes a",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Logging Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "to maintain a record of all activities, such as scanned",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "auditing, providing transparency in the tool's operations. To further improve reliability, the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Error",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Handling Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "ensures smooth operation by identifying and logging exceptions, such as invalid",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "To accommodate varying user needs, the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "User Interface Module",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "is implemented with dual",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "functionality. For advanced users, a command-line interface provides quick access to features and",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "and a user-centric approach, the implementation of the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "IP Address Scanner",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "results in a reliable and",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Page 8",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "CODE:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "#include <stdio.h>",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "#include <stdlib.h>",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "#include <string.h>",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "#include <pthread.h>",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "#include <arpa/inet.h>",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "#define MAX_THREADS 10",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "typedef struct { char ip[16]; int is_online; } ScanResult;",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "void *scan_ip(void *arg) {",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "ScanResult *res = (ScanResult *)arg;",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "int sock = socket(AF_INET, SOCK_STREAM, 0);",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "struct sockaddr_in server = { .sin_family = AF_INET, .sin_port = htons(80) };",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "inet_pton(AF_INET, res->ip, &server.sin_addr);",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "res->is_online = (sock >= 0 && connect(sock, (struct sockaddr *)&server, sizeof(server))",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "== 0);",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "if (sock >= 0) close(sock);",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "return NULL;",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "int increment_ip(char *ip) {",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "int a, b, c, d;",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "if (sscanf(ip, \"%d.%d.%d.%d\", &a, &b, &c, &d) != 4) return 0;",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "if (++d > 255) { d = 0; if (++c > 255) { c = 0; if (++b > 255) { b = 0; if (++a > 255) return",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "0; }}}",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "sprintf(ip, \"%d.%d.%d.%d\", a, b, c, d);",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "return 1;",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "void scan_range(const char *start_ip, const char *end_ip) {",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "char current_ip[16]; strncpy(current_ip, start_ip, 16);",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Page 9",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "pthread_t threads[MAX_THREADS]; ScanResult results[MAX_THREADS]; int t = 0;",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "while (strcmp(current_ip, end_ip) <= 0) {",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "strncpy(results[t].ip, current_ip, 16);",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "pthread_create(&threads[t], NULL, scan_ip, &results[t]);",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "if (++t == MAX_THREADS || !increment_ip(current_ip)) {",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "for (int i = 0; i < t; i++) {",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "pthread_join(threads[i], NULL);",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "printf(\"%s - %s\\n\", results[i].ip, results[i].is_online ? \"Online\" : \"Offline\");",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "t = 0; } } }",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "int main() {",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "char start_ip[16], end_ip[16];",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "printf(\"Enter start IP: \"); scanf(\"%15s\", start_ip);",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "printf(\"Enter end IP: \"); scanf(\"%15s\", end_ip);",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "scan_range(start_ip, end_ip);",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "return 0;",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "OUPUT REPORT",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "For each address, if the connection is successful, it is marked as",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Online",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "; otherwise, it is marked as",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Offline",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "and active, while the others (192.168.1.2, 192.168.1.4, 192.168.1.6, 192.168.1.8) are not. This scan",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "provides a quick overview of the network's online devices. The tool can help network administrators",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "(Autonomous)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Computer Networks (A8519)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Page 10",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "6.CONCLUSION",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "The IP Address Scanner serves as a simple yet effective tool for determining the online status",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "typically port 80, the scanner checks whether the device is reachable over the network. This basic",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "The scanning process is performed concurrently using multithreading, which significantly",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "improves the speed of the scan, especially when scanning a large range of IP addresses. By limiting",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "the number of threads (e.g., 10 threads at a time), the scanner ensures that system resources are",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "managed efficiently and that the scan does not overload the network or the computer performing the",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Once the scan is completed, the results are displayed for each IP address in the specified",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "range, indicating whether the device is online or offline. The online status is determined by a",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "The tool's user-friendly interface allows for easy input of the starting and ending IP addresses,",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "making it accessible even to those with limited technical expertise. The IP range can be modified as",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "In conclusion, the IP Address Scanner is a valuable tool for monitoring network devices and",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "devices. This simple tool lays the groundwork for more advanced network monitoring and diagnostic",
+      "page": 10
+    }
+  ]
+}

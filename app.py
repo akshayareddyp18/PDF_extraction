@@ -1,25 +1,21 @@
-import streamlit as st
+import os
 import json
 from pdf_outline_extractor import extract_outline
 
-st.set_page_config(page_title="PDF Outline Extractor", layout="centered")
+pdf_path = input("📤 Enter path to your PDF file: ").strip()
 
-st.title("📘 PDF Outline Extractor")
-st.caption("Upload a PDF and extract its structured outline (Title, H1, H2, H3)")
+if not os.path.isfile(pdf_path):
+    print(f"❌ File not found: {pdf_path}")
+    exit()
 
-uploaded_pdf = st.file_uploader("📤 Upload your PDF", type=["pdf"])
+with open(pdf_path, "rb") as f:
+    structured_output = extract_outline(f)
 
-if uploaded_pdf:
-    with st.spinner("⏳ Extracting outline..."):
-        result = extract_outline(uploaded_pdf)
+output_filename = os.path.splitext(os.path.basename(pdf_path))[0] + "_outline.json"
+os.makedirs("output", exist_ok=True)
+output_path = os.path.join("output", output_filename)
 
-        st.success("✅ Outline extracted!")
-        st.json(result)
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(structured_output, f, indent=2, ensure_ascii=False)
 
-        # Download button
-        st.download_button(
-            label="📥 Download JSON",
-            data=json.dumps(result, indent=2),
-            file_name=f"{uploaded_pdf.name.replace('.pdf', '')}_outline.json",
-            mime="application/json"
-        )
+print(f"✅ Output saved to: {output_path}")
