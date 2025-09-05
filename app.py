@@ -1,24 +1,19 @@
 import streamlit as st
-import fitz
+import fitz  # PyMuPDF
 import io
-from PIL import Image
-import pytesseract
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from transformers import pipeline
 
-# --- Functions from earlier ---
-def extract_text_from_pdf_filelike(filelike, ocr_lang='eng'):
+# --- Functions ---
+def extract_text_from_pdf_filelike(filelike):
+    """Extract text from PDF (no OCR)."""
     doc = fitz.open(stream=filelike.read(), filetype="pdf")
     all_text = []
     for page in doc:
         text = page.get_text()
-        if not text.strip():
-            image_bytes = page.get_pixmap().pil_tobytes(format="PNG")
-            img = Image.open(io.BytesIO(image_bytes))
-            text = pytesseract.image_to_string(img, lang=ocr_lang)
         all_text.append(text)
     return '\n'.join(all_text)
 
@@ -51,7 +46,7 @@ def answer_query(question, retrieved_chunks, llm_pipe, system_prompt="Answer usi
     return llm_pipe(prompt, max_new_tokens=256)[0]['generated_text']
 
 # --- Streamlit App ---
-st.title("RAG System: Technical Document Q&A (Drag-n-Drop PDF)")
+st.title("RAG System: Document Q&A ")
 
 uploaded_pdf = st.file_uploader("Upload a PDF document", type=['pdf'])
 
@@ -75,4 +70,3 @@ if uploaded_pdf:
             st.code(context)
 else:
     st.info("Please drag and drop or select a PDF to begin.")
-
