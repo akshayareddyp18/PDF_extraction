@@ -56,8 +56,8 @@ A simple **Retrieval-Augmented Generation (RAG)** system for question-answering 
 
 ```bash
 # 1 Clone the repository
-git clone https://github.com/your-username/rag-system.git
-cd rag-system
+git clone https://github.com/akshayareddyp/PDF_extraction.git
+cd PDF_extraction
 
 # 2️ Install dependencies
 pip install -r requirements.txt
